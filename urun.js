@@ -1,5 +1,5 @@
 document.addEventListener("keydown", function (e) {
-    if (e.key === "u" && e.ctrlKey && e.altKey) {
+    if (e.key === "`" && e.ctrlKey && e.altKey) {
         var popup = window.open("//prestont500.github.io/urunfix/popup.html", "_blank", "width=500,height=300");
 
         var iframe = popup.document.createElement("iframe");
