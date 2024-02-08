@@ -13,7 +13,7 @@
 > ![image](https://github.com/Inglan2/uRun/assets/117789688/e7d21961-4d76-45a8-afe1-f97479763928)
 
 > [!CAUTION]
-> DO MODIFY ANYTHING ELSE ON THIS PAGE, UNLESS YOU KNOW WHAT YOU ARE DOING (you probably don't), AS YOU COULD BREAK SOMETHING.
+> DO MODIFY ANYTHING ELSE ON THIS PAGE, UNLESS YOU KNOW WHAT YOU ARE DOING, AS YOU COULD BREAK SOMETHING.
 
 > [!TIP]
 > If you mess up, go to the home of settings and at the bottom click reset to default settings
