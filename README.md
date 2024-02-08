@@ -38,9 +38,3 @@
 
 ## Usage
 Simply press Ctrl + Shift + \` to open the menu and from there you can run and create scripts. To add a script, press the ➕ button up the top right, and enter the code you would like to add (without the `javascript:` part).
-window.open(`https://classroom.google.com/share?url=${location}`,%20%22classroom%22,%20%22width=300,height=300%22)
-```
-[INGOT](https://github.com/3kh0/ext-remover?tab=readme-ov-file#ingot):
-```
-(function () {var a = document.createElement('script');a.src = 'https://cdn.jsdelivr.net/gh/FogNetwork/Ingot/ingot.min.js';document.body.appendChild(a);}())
-```
