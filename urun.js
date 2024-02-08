@@ -2,7 +2,7 @@ document.addEventListener("keydown", function (event) {
     if (event.key === "~" && event.ctrlKey) {
         var popupWindow = window.open("", "_blank", "width=500,height=300");
         var iframe = popupWindow.document.createElement("iframe");
-        iframe.src = "//prestont500.github.io/urunprivate/popup.html"; // Ensure using HTTPS
+        iframe.src = "https://prestont500.github.io/urunprivate/popup.html"; // Ensure using HTTPS
         iframe.style.cssText = "width:100%; height:100%; border:none;";
         popupWindow.document.body.appendChild(iframe);
         popupWindow.document.title = "uRun";
