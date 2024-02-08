@@ -1,10 +1,10 @@
 # uRun - Bypass bookmarklet restrictions with an adblocker
-## This is a attempt at fixing uRun by
+**his is a attempt at fixing uRun by**
 <a href="https://github.com/PrestonT500/urunfix/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=PrestonT500/urunfix" />
 </a>
 
-## Original uRun by Inglan2
+**Original uRun by Inglan2**
 
 ### Installation
 1. Open uBlock settings
