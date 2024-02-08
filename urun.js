@@ -1,22 +1,14 @@
+/// urun.js
 document.addEventListener("keydown", function (e) {
-    if (e.key === "~" && e.ctrlKey && e.shiftKey) {
-        var popup = window.open("", "_blank", "width=500,height=300");
-        var iframe = popup.document.createElement("iframe");
-        iframe.src = "https://prestont500.github.io/urunfix/popup.html";
-        iframe.style.cssText = "width:100%; height:100%; border:none;";
-        popup.document.body.appendChild(iframe);
-        popup.document.title = "uRun";
-        
-        popup.addEventListener("message", function (event) {
-            if (typeof event.data === "string" && event.data.startsWith("execute:")) {
-                try {
-                    eval(event.data.substring("execute:".length));
-                } catch (error) {
-                    console.error("Error executing script:", error);
-                } finally {
-                    popup.close();
-                }
-            }
-        });
-    }
+	if (e.key == "~" && e.ctrlKey) {
+		var t = window.open("", "_blank", "width=500,height=300");
+		var e = t.document.createElement("iframe");
+		(e.src = "//prestont500.github.io/urunprivate/popup.html"),
+			(e.style.cssText = "width:100%; height:100%; border:none;"),
+			t.document.body.appendChild(e),
+			t.document.title = "uRun",
+			t.addEventListener("message", function (e) {
+				e.data.toString().startsWith("execute:") && (eval(e.data.toString().replace("execute:", "")), t.close());
+			});
+	}
 });
