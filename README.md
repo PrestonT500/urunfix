@@ -29,7 +29,7 @@
 > ```
 
 > [!TIP]
-> It's down the bottom
+> It's down at the bottom
 4. Set a filter to load uRun
 > After closing the advanced settings tab, go to the filters tab and add this:
 > ```
