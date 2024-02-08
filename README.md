@@ -1,5 +1,6 @@
 # uRun - Bypass bookmarklet restrictions with an adblocker
-**his is a attempt at fixing uRun by**
+**This is a attempt at fixing uRun by**
+
 <a href="https://github.com/PrestonT500/urunfix/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=PrestonT500/urunfix" />
 </a>
